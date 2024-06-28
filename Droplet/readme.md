@@ -15,4 +15,11 @@
 5. Install Docker machine
    - https://www.digitalocean.com/community/tutorials/how-to-provision-and-manage-remote-docker-hosts-with-docker-machine-on-centos-7
 
-6. 
+6. Terraform steps
+    a. terraform init
+    b. terraform validate 
+    c. terraform plan -var "do_token=${DO_PAT}"
+    d. terraform apply --auto-approve -var "do_token=${DO_PAT}"
+    e. terraform destroy -var "do_token=${DO_PAT}"
+
+    export DO_PAT=<Digital Ocean token>
