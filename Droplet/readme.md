@@ -1,6 +1,6 @@
-### Creating Droplet using Terraform
+## Creating Droplet using Terraform
 
-## References
+### References
 
 1. https://www.howtogeek.com/devops/how-to-create-a-digitalocean-droplet-using-terraform/
    
