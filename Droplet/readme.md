@@ -16,10 +16,10 @@
    - https://www.digitalocean.com/community/tutorials/how-to-provision-and-manage-remote-docker-hosts-with-docker-machine-on-centos-7
 
 6. Terraform steps
-    a. terraform init
-    b. terraform validate 
-    c. terraform plan -var "do_token=${DO_PAT}"
-    d. terraform apply --auto-approve -var "do_token=${DO_PAT}"
-    e. terraform destroy -var "do_token=${DO_PAT}"
+    - terraform init
+    - terraform validate 
+    - terraform plan -var "do_token=${DO_PAT}"
+    - terraform apply --auto-approve -var "do_token=${DO_PAT}"
+    - terraform destroy -var "do_token=${DO_PAT}"
 
-    export DO_PAT=<Digital Ocean token>
+    export DO_PAT="Digital Ocean Token"
